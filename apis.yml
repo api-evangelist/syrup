@@ -1,7 +1,25 @@
 aid: syrup
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syrup.png
 name: Syrup
-description: 'Syrup is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Syrup (Syrup Tech) is an AI-powered inventory optimization and demand-forecasting
+  platform for retail and apparel brands. Its machine-learning decision-support engine combines
+  transactional, marketing, and inventory data with external signals such as social trends and
+  weather to recommend how brands produce, buy, and allocate inventory across omnichannel
+  commerce, reducing stockouts and overproduction. Founded in 2021 by James Theuerkauf and
+  Ferdinand Stockmann, Syrup raised a $17.5M Series A led by Accel and was acquired by Anaplan in
+  September 2025; syrup.tech now redirects to anaplan.com. Syrup exposes no public developer API
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/syrup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +27,26 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: anaplan
+x-acquired-date: '2025-09'
+x-founded: '2021'
+x-founders:
+- James Theuerkauf
+- Ferdinand Stockmann
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Retail
+- Inventory
+- Demand Forecasting
+- Machine Learning
+- Apparel
+- Supply Chain
+- Ecommerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +56,10 @@ maintainers:
 common:
 - type: Website
   url: https://syrup.tech/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'No public API surface; acquired by Anaplan 2025-09, syrup.tech 301->anaplan.com; GitHub
+    org syrup-tech has 0 public repos. Identity/description enriched from research only.'
