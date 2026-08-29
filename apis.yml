@@ -32,6 +32,8 @@ description: 'Syrup (Syrup Tech) is an AI-powered inventory optimization and dem
   September 2025; syrup.tech now redirects to anaplan.com. Syrup exposes no public developer API
   surface.'
 url: https://raw.githubusercontent.com/api-evangelist/syrup/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
