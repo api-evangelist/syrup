@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://syrup.tech/', status: 301, note: 'declared website redirects to https://www.anaplan.com/ — a different registrable domain (syrup.tech -> anaplan.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syrup.png
 name: Syrup
 description: 'Syrup (Syrup Tech) is an AI-powered inventory optimization and demand-forecasting
