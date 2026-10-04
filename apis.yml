@@ -58,7 +58,7 @@ tags:
 - Retail
 - Inventory
 - Demand Forecasting
-- Machine-Learning
+- Machine Learning
 - Apparel
 - Supply Chain
 - E-Commerce
@@ -72,6 +72,7 @@ tags_raw:
 - Apparel
 - Supply Chain
 - Ecommerce
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
