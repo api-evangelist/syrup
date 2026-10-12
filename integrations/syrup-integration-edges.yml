@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/syrup/integrations
+- https://n8n.io/integrations/syrup/
+- https://composio.dev/toolkits/syrup
+- https://monid.ai/tools/syrup
+checked:
+- https://composio.dev/toolkits/syrup
+- https://monid.ai/tools/syrup
+- https://n8n.io/integrations/syrup/
+- https://zapier.com/apps/syrup/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
